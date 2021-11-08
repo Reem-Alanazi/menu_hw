@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+        <item android:id="@+id/setting"
+            android:title="@string/setting"
+            android:icon="@drawable/icon_settings"
+            app:showAsAction="always" />
+
+        <item android:id="@+id/share"
+            android:title="@string/share"
+            android:icon="@drawable/icon_share"
+            app:showAsAction="always" />
+
+        <item android:id="@+id/phone"
+            android:title="@string/phone"
+            android:icon="@drawable/icon_phone"
+            app:showAsAction="never" />
+
+        <item android:id="@+id/massage"
+            android:title="@string/massage"
+            android:icon="@drawable/icon_mail"
+            app:showAsAction="never" />
+
+
+        <item
+            android:id="@+id/action"
+             android:title="LogIn"
+            app:showAsAction="never"/>
+
+</menu>
